@@ -1,0 +1,17 @@
+{
+  "name": "contentful",
+  "version": "1.0.0",
+  "description": "",
+  "main": "get.js",
+  "scripts": {
+    "get": "node get.js",
+    "load": "node load.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "contentful": "^10.6.19",
+    "contentful-management": "^11.14.0",
+    "dotenv": "^16.4.1"
+  }
+}
