@@ -38,6 +38,17 @@ client.entry.create({
         productPrice: {
             'en-US': 1000
         },
+        plans: {
+            'en-US': [
+                {
+                    sys: {
+                        type: 'Link',
+                        linkType: 'Entry',
+                        id: process.env.PLAN_ID
+                    }
+                }
+            ]
+        }
     }
 })
     .then((entry) => console.log(JSON.stringify(entry, null, 2)))
